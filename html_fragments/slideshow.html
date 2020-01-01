@@ -1,0 +1,19 @@
+<div id="slideshow" class="pics">
+</div>
+
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+
+    jQuery.noConflict();
+    jQuery(function() {
+        var $ss = jQuery('#slideshow');
+        // add slides to slideshow (images 2-8)
+        for (var i = 1; i < 5; i++)
+            $ss.append('<img src="images/slider'+i+'.jpg" alt="slide'+i+'" />');
+
+        // start the slideshow
+        $ss.cycle({timeout: 6000});
+    });
+
+    //--><!]]>
+</script>
