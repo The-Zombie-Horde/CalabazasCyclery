@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Calabazas" content="Bike shop, custom bikes and custom wheels" />
+<meta name="keywords" content="bike staff, bike expertise" />
+<title>Calabazas Staff</title>
+<script type="text/javascript" src="scripts/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="scripts/jb_slideshow2.js"></script>
+<link href="calabazas.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+	font-size: 14px;
+}
+
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20083348-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="outerContainer">
+<div id="hdrNav">
+<div id="header">
+	<div id="slideshow" class="pics" style="position: relative; "> 
+	 <img src="calabazas2013/slider1.jpg" width="900" height="250" style="position: absolute; top: 0px; left: 0px; z-index: 4; opacity: 0; display:none; "><img src="calabazas2013/slider2.jpg" alt="slide2" style="top: 0px; left: 0px; z-index: 3; position: absolute; display: block; opacity: 0.782339; "><img src="calabazas2013/slider3.jpg" alt="slide3" style="top: 0px; left: 0px; z-index: 2; position: absolute; display: block; opacity: 0.217661; "><img src="calabazas2013/slider4.jpg" alt="slide4" style="top: 0px; left: 0px; z-index: 1; position: absolute; opacity: 0; display: none; "></div>
+
+    <!--Slideshow-->
+    <script>
+        jQuery(function(){
+            jQuery("#slideshowContent").load("html_fragments/slideshow.html");
+        });
+    </script>
+    <div id="slideshowContent"></div>
+
+</div>
+<div id="pathway_wrap">
+    <script>
+        jQuery(function(){
+            jQuery("#navbarContent").load("html_fragments/navbar.html");
+        });
+    </script>
+    <div id="navbarContent"></div>
+</div>
+</div>
+<div id="container">
+	<!-- left Column -->
+    <script>
+        jQuery(function(){
+            jQuery("#includedContent").load("html_fragments/left_column.html");
+        });
+    </script>
+    <div id="includedContent"></div>
+    
+    <!-- Right Column -->
+	<div id="right_col" class="wide">
+		<div id="main_content" class="wide">
+       <div id="content"><strong><center>UNDER CONSTRUCTION!!</center></strong></div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <script>
+        jQuery(function(){
+            jQuery("#footerContent").load("html_fragments/footer.html");
+        });
+    </script>
+    <div id="footerContent"></div>
+  </div>
+  </div>
+</body>
+</html>

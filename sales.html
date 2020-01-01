@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Calabazas" content="Bike shop, custom bikes and custom wheels" />
+<meta name="keywords" content="bike sales, closeouts" />
+<title>Calabazas Sales</title>
+<script type="text/javascript" src="scripts/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="scripts/jb_slideshow2.js"></script>
+<link href="calabazas.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20083348-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="outerContainer">
+<div id="hdrNav">
+<div id="header">
+	<div id="slideshow" class="pics"> 
+     </div>
+
+    <!--Slideshow-->
+    <script>
+        jQuery(function(){
+            jQuery("#slideshowContent").load("html_fragments/slideshow.html");
+        });
+    </script>
+    <div id="slideshowContent"></div>
+
+</div>
+<div id="pathway_wrap">
+    <script>
+        jQuery(function(){
+            jQuery("#navbarContent").load("html_fragments/navbar.html");
+        });
+    </script>
+    <div id="navbarContent"></div>
+<br />
+<br />
+</div>
+</div>
+<div id="container">
+	<!-- left Column -->
+	<script>
+		jQuery(function(){
+			jQuery("#includedContent").load("html_fragments/left_column.html");
+		});
+	</script>
+	<div id="includedContent"></div>
+    
+    <!-- Right Column -->
+	<div id="right_col" class="wide">
+		<div id="main_content" class="wide">
+            <div id="content">
+            <h1>Sales/Closeouts</h1>
+           <!-- <h2 class="cntr">20% off clothing!<br /><br />Stop in and check out what is on sale!</h2> -->
+<!--            <div class="cntr"><img src="images/Fitbike-VH-2-3_4-r-354x199.jpg" width="354" height="199" alt="Fitbike" /></div>
+-->
+              <div class="Sales">
+            <!-- <div style="padding: 20px 30px; border: 3px dotted #ddd;">-->
+            <!--<p style = "font-family:georgia;font-size:16px;"><h2 class="cntr"><font size = "5" color = "orange">DARTMOOR MTB Parts - 30% OFF!</font></h2></p> -->
+         </div>
+        </div>
+    </div>
+
+        <!--Footer-->
+        <script>
+            jQuery(function(){
+                jQuery("#footerContent").load("html_fragments/footer.html");
+            });
+        </script>
+        <div id="footerContent"></div>
+  </div>
+  </div>
+</body>
+</html>

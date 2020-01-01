@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Calabazas" content="Bike shop, custom bikes and custom wheels" />
+<meta name="keywords" content="bike shop, bike repairs, flats, tune up, custom build" />
+<title>Calabazas Shop</title>
+<script type="text/javascript" src="scripts/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="scripts/jb_slideshow2.js"></script>
+<link href="calabazas.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+	color: #000000;
+}
+h3 {
+	color: #000000;
+}
+h4 {
+	color: #000000;
+}
+
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20083348-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="outerContainer">
+<div id="hdrNav">
+<div id="header">
+	<div id="slideshow" class="pics"> 
+     </div>
+
+    <!--Slideshow-->
+    <script>
+        jQuery(function(){
+            jQuery("#slideshowContent").load("html_fragments/slideshow.html");
+        });
+    </script>
+    <div id="slideshowContent"></div>
+
+</div>
+<div id="pathway_wrap">
+    <script>
+        jQuery(function(){
+            jQuery("#navbarContent").load("html_fragments/navbar.html");
+        });
+    </script>
+    <div id="navbarContent"></div>
+<br />
+<br />
+</div>
+</div>
+<div id="container">
+	<!-- left Column -->
+	<script>
+		jQuery(function(){
+			jQuery("#includedContent").load("html_fragments/left_column.html");
+		});
+	</script>
+	<div id="includedContent"></div>
+    
+    <!-- Right Column -->
+	<div id="right_col" class="wide">
+		<div id="main_content" class="wide">
+            <div id="content">
+            <h1>Over 20 Years of Service</h1>
+              <p>Let us build the wheelset that dreams are made of. Sweet rides are only made sweeter with custom wheelsets built right here at Calabazas Cyclery. </p>
+              <p>Come down for an estimate/safety check today!</p>
+              <p class="cntr mtop30"><img src="images/fixbike.jpg" width="300" height="332" alt="Repair Shop" />
+          <p class="cntr"></div>
+        </div>
+    </div>
+    <!--Footer-->
+    <script>
+        jQuery(function(){
+            jQuery("#footerContent").load("html_fragments/footer.html");
+        });
+    </script>
+    <div id="footerContent"></div>
+  </div>
+  </div>
+</body>
+</html>
